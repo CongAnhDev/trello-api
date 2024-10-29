@@ -40,7 +40,7 @@ const createNew = async (reqBody) => {
     const htmlContent = `
       <h3>Here is your verification link:</h3>
       <h3>${verificationLink}</h3>
-      <h3>Sincerely,<br/> - Trungquandev - Một Lập Trình Viên - </h3>
+      <h3>Sincerely,<br/> - CongAnhDev - </h3>
     `
     // Gọi tới cái Provider gửi mail
     /**

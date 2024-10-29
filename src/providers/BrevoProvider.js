@@ -19,6 +19,7 @@ import { env } from '~/config/environment'
 */
 let apiInstance = new SibApiV3Sdk.TransactionalEmailsApi()
 let apiKey = apiInstance.authentications['apiKey']
+console.log(env.BREVO_API_KEY)
 apiKey.apiKey = env.BREVO_API_KEY
 
 /**
